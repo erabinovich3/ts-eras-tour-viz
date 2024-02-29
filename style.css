@@ -1,0 +1,112 @@
+/* TS Album Colors
+  
+  taylor swift: "#b9d2b5"
+  fearless: "#f4cb8d"
+  speak now: "#d1b2d2"
+  red": "#823549"
+  1989: "#b5e9f6"
+  reputation: "#847e80"
+  lover: "#f9b2d0"
+  folklore: "#cfcac6"
+  evermore: "#c8ae95"
+  midnights: "#434961"
+  ttpd: "#ffffff"
+  
+  */
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+.map-title {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-family: "Abril Fatface", serif;
+}
+
+.sub-title {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-family: "Abril Fatface", serif;
+  letter-spacing: 0.2rem;
+}
+
+.land {
+  fill: white;
+}
+
+.countries {
+  fill: none;
+  stroke: gray;
+  stroke-width: 1;
+}
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: #f9f9f9;
+  border: 1px solid gray;
+  border-radius: 0.7rem;
+  padding: 0.7rem 1rem;
+}
+
+.tooltip-title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.tooltip-subtitle {
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.tooltip-tour-stops {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 50vh;
+}
+
+.tour-stop-date {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.surprise-song-color {
+  margin-right: 0.3rem;
+  margin-top: -0.2rem;
+  vertical-align: middle;
+}
+
+.tooltip span {
+  font-size: 1rem;
+  padding: 0.1rem 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.song-separator {
+  height: 0.1rem;
+}
+
+.date-separator {
+  height: 1rem;
+}
+
+@media only screen and (max-height: 1094px) {
+  .tooltip-tour-stop {
+    margin: 0 0.5rem;
+  }
+}
