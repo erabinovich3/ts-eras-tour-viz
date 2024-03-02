@@ -63,7 +63,7 @@ function setTooltipContent(d) {
   tipElem
     .append("div")
     .attr("class", "tooltip-subtitle")
-    .text(`${tourStops.length} shows`);
+    .text(`${tourStops.length} show${tourStops.length > 1 ? "s" : ""}`);
   tipElem.append("div").attr("class", "tooltip-tour-stops");
 
   // populate tooltip
