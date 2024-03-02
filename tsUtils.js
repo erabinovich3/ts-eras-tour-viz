@@ -1,14 +1,7 @@
 export function getAlbumColorFromSong(song) {
-  //   console.log(song);
-  //   console.log(song === "This Is Why We Can't Have Nice Things");
   const albumObj = albumSongsMasterlist.find((album) =>
     album.songs.includes(song)
   );
-
-  // this is why we can't have nice things
-
-  //   console.log(albumObj);
-  //   console.log(albumSongsMasterlist[5].songs[12]);
 
   return albumObj?.color ?? "#ffefdc";
 }

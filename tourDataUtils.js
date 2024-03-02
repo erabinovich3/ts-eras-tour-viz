@@ -13,7 +13,6 @@ export const fetchTourData = async () => {
   };
 
   return d3.csv(url, row).then((data) => {
-    // console.log(data);
     return data;
   });
 };
