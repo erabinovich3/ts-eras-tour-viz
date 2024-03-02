@@ -1,8 +1,9 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 export const fetchTourData = async () => {
-  const url =
-    "https://gist.githubusercontent.com/erabinovich3/65938ccaa3ebde8aa8089dd3b6516741/raw/eras-tour-surprise-songs.csv";
+  const url = `https://gist.githubusercontent.com/erabinovich3/65938ccaa3ebde8aa8089dd3b6516741/raw/eras-tour-surprise-songs.csv?${Math.floor(
+    Math.random() * 1000
+  )}`;
 
   const row = (d) => {
     d.ss1 = d["Surprise Song 1"].split("//").map((str) => str.trim());
