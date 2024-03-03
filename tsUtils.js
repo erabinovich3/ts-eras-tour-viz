@@ -299,6 +299,7 @@ const albumSongsMasterlist = [
       "The Manuscript",
       "The Bolter",
       "The Albatross",
+      "The Black Dog",
     ],
     color: "ffffff",
   },
