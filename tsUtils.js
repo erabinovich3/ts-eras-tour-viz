@@ -289,7 +289,7 @@ const albumSongsMasterlist = [
       "Fresh Out the Slammer",
       "Florida!!!!",
       "Guilty as Sin?",
-      "Who’s Afraid of Little Old Me?",
+      "Who's Afraid of Little Old Me?",
       "I Can Fix Him (No Really I Can)",
       "loml",
       "I Can Do It With a Broken Heart",
