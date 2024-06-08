@@ -24,6 +24,7 @@ const albumSongsMasterlist = [
             "I'm Only Me When I'm With You",
             "Invisible",
             "A Perfectly Good Heart",
+            "Crazier", // not on this album, grouped by Taylor Swift herself
         ],
         color: "#b9d2b5",
     },
@@ -56,7 +57,6 @@ const albumSongsMasterlist = [
             "Don't You",
             "Bye Bye Baby",
             "If This Was A Movie",
-            "Crazier", // not on this album, grouped by nearest release date for color purposes
         ],
         color: "#f4cb8d",
     },
