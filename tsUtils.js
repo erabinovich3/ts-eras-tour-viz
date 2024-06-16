@@ -172,7 +172,7 @@ const albumSongsMasterlist = [
             "Call It What You Want",
             "New Year's Day",
             "I Don't Wanna Live Forever", // not on this album, grouped by nearest release date for color purposes
-            "This Is What You Came For", // not on this album, grouped by nearest release date for color purposes
+            "This Is What You Came For", // not on this album, grouped by Taylor Swift herself
         ],
         color: "#847e80",
     },
@@ -223,6 +223,7 @@ const albumSongsMasterlist = [
             "peace",
             "hoax",
             "the lakes",
+            "Carolina", // not on this album, grouped by Taylor Swift herself
         ],
         color: "#cfcac6",
     },
@@ -274,7 +275,6 @@ const albumSongsMasterlist = [
             "Dear Reader",
             "Hits Different",
             "You're Losing Me",
-            "Carolina", // not on this album, grouped by nearest release date for color purposes
         ],
         color: "#434961",
     },
